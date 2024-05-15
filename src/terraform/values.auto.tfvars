@@ -1,0 +1,5 @@
+loc_sub                   = "use2-446692-s4"
+res_suffix                = "afd-aca-priv-02"
+location                  = "eastus2"
+vnet_address_space        = "172.16.4.0/25"
+azure_tags_json_file_path = "./ServiceTags_Public_20240506.json"

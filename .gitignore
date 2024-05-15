@@ -1,0 +1,46 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+
+# PEM files
+**/*.pem
+
+# ARM Subscriptions secrets
+**/*_secret.json
+*secret*
+
+# Certificates
+*.pfx
+
+# Terraform Providers version locks
+**/.terraform.lock.hcl
+
+# KubeConfig files
+**/*kubeconfig
+
+# Sourced Plans Terraform files
+**/srcd-*.tf
+
+# # All tfvars files
+# *tfvars*
+# # Except the ones in subscriptions/azint subfolders
+# !subscriptions/azint/**/*tfvars*
+# !446692/**/*tfvars*
+
+# Ignore /various folder
+various/
+
+# Ignore pycache folders
+**/__pycache__/*
